@@ -98,8 +98,7 @@
     border: none;
 }
 
-.nav-drawer-img,
-.nav-underline {
+.nav-drawer-img {
     visibility: hidden;
 }
 
@@ -124,8 +123,7 @@
         display: none;
     }
 
-    .nav-drawer-img,
-    .nav-underline {
+    .nav-drawer-img {
         visibility: visible;
     }
 
