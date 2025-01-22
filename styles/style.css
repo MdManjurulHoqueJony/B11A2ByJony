@@ -171,12 +171,8 @@
 
 /* Standard curriculum */
 
-
-main {
-    background: url(../assets/bg.png);
-}
-
 .standard-curriculum {
+    background: url(../assets/bg.png);
     margin: 60px auto;
 }
 
@@ -290,7 +286,156 @@ main {
 }
 
 
+/* Our Stories */
 
+.our-stories {
+    background: url(image), linear-gradient(0.00deg, rgba(254, 163, 1, 0.3), rgba(255, 255, 255, 0.3) 100%);
+    padding: 60px 140px;
+}
+
+.our-stories-title {
+    color: rgb(0, 0, 0);
+    font-family: Quicksand;
+    font-size: 46px;
+    font-weight: 700;
+    line-height: 57.5px;
+    letter-spacing: 0%;
+    text-align: center;
+    margin-bottom: 80px;
+}
+
+.stories-container {
+    margin-bottom: 80px;
+    display: flex;
+    gap: 19px;
+    justify-content: center;
+}
+
+.big-story-container {
+    width: 540.27px;
+    height: 630.52px;
+    border-radius: 16px;
+    background: rgb(255, 255, 255);
+}
+
+.big-story-container img {
+    border-top-left-radius: 16px;
+    border-top-right-radius: 16px;
+
+}
+
+.big-story-content {
+    margin-left: 30px;
+    margin-top: -25px;
+}
+
+.big-story-btn {
+
+    margin-bottom: 36px;
+    width: 174.51px;
+    height: 38.35px;
+    left: 38.35px;
+    top: 157.81px;
+    border-radius: 47.93px;
+    border-radius: 47.93px;
+    background: rgb(60, 216, 232);
+    border: none;
+}
+
+.big-story-title {
+    margin-bottom: 52px;
+    color: rgb(0, 0, 0);
+    font-family: Quicksand;
+    font-size: 24px;
+    font-weight: 700;
+    line-height: 38.35px;
+    letter-spacing: 0%;
+    text-align: left;
+}
+
+.big-story-text {
+    color: rgb(102, 102, 102);
+    font-family: Raleway;
+    font-size: 15.34px;
+    font-weight: 500;
+    line-height: 28.76px;
+    letter-spacing: 0%;
+    text-align: left;
+}
+
+.our-stories-btn-div {
+    display: flex;
+    justify-content: center;
+}
+
+.our-stories-btn {
+    border-radius: 12px;
+    background: rgb(17, 17, 17);
+    color: white;
+    width: 197px;
+    height: 50px;
+    border: none;
+    font-family: Quicksand;
+    font-size: 20px;
+    font-weight: 700;
+    line-height: 30px;
+    letter-spacing: 0%;
+}
+
+.short-stories-container {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    gap: 20px;
+}
+
+.short-story {
+    width: 290.69px;
+    height: 301.61px;
+    border-radius: 16px;
+    background: rgb(255, 255, 255);
+}
+
+.short-story img {
+    border-top-left-radius: 16px;
+    border-top-right-radius: 16px;
+}
+
+.short-story-content {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.short-story-btn {
+    width: 174.51px;
+    height: 38.35px;
+    left: 38.35px;
+    top: 157.81px;
+    border-radius: 47.93px;
+    background: rgb(149, 178, 38);
+    border: none;
+    margin-top: -25px;
+    margin-bottom: 24px;
+
+}
+
+.short-story-text {
+    color: rgb(0, 0, 0);
+    font-family: Quicksand;
+    font-size: 15.34px;
+    font-weight: 700;
+    line-height: 28.76px;
+    letter-spacing: 0%;
+    text-align: left;
+    width: 190.68px;
+    height: 47.93px;
+    margin-left: 20px;
+}
+
+#short-story-btn-2 {
+    background: rgb(93, 88, 240);
+}
 
 
 
@@ -310,7 +455,8 @@ main {
     .home-div-text,
     .nav-menu,
     .nav-btn,
-    .prev-next {
+    .prev-next,
+    .big-story-container {
         display: none;
     }
 
@@ -367,4 +513,68 @@ main {
         padding: 20px 16.5px;
     }
 
+    .our-stories {
+        padding: 40px 16px;
+    }
+
+    .stories-container {
+        padding: 20px 16px;
+        margin-bottom: 20px;
+    }
+
+    .short-stories-container {
+        gap: 10px;
+    }
+
+    .short-story {
+        width: 173.09px;
+        height: 179.59px;
+        border-radius: 9.53px;
+        background: rgb(255, 255, 255);
+    }
+
+    .short-story img {
+        border-top-left-radius: 9.53px;
+        border-top-right-radius: 9.53px;
+        width: 100%;
+        height: 50%;
+    }
+
+
+    .short-story-btn {
+        width: 103.91px;
+        height: 22.83px;
+        left: 22.83px;
+        top: 93.96px;
+        border-radius: 28.54px;
+        background: rgb(149, 178, 38);
+        border: none;
+        margin-top: -15px;
+        margin-bottom: 14px;
+        color: rgb(255, 255, 255);
+        font-family: Raleway;
+        font-size: 9.13px;
+        font-weight: 500;
+        line-height: 17.12px;
+        letter-spacing: 0%;
+        text-transform: capitalize;
+
+    }
+
+    .short-story-text {
+        color: rgb(0, 0, 0);
+        font-family: Quicksand;
+        font-size: 9.13px;
+        font-weight: 700;
+        line-height: 17.12px;
+        letter-spacing: 0%;
+        text-align: left;
+        width: 117.92px;
+        height: 28.54px;
+        margin-left: 20px;
+    }
+
+    .our-stories-title {
+        margin-bottom: 20px;
+    }
 }
