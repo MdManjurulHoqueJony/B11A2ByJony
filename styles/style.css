@@ -9,6 +9,7 @@
     display: none;
 }
 
+/* navbar */
 .nav-container {
     padding: 20px 140px;
     display: flex;
@@ -102,6 +103,75 @@
     visibility: hidden;
 }
 
+/* banner */
+
+.banner {
+    padding: 0px 140px;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.hero-kids-img {
+    width: 468.61px;
+    height: 575px;
+}
+
+.banner-content {
+    display: flex;
+    flex-direction: column;
+    gap: 24px;
+}
+
+.banner-content-title {
+    font-family: Quicksand;
+    font-size: 56px;
+    font-weight: 700;
+    line-height: 61px;
+    letter-spacing: 0%;
+    text-align: left;
+}
+
+.banner-content-text {
+    color: rgb(17, 17, 17);
+    font-family: Quicksand;
+    font-size: 20px;
+    font-weight: 400;
+    line-height: 25px;
+    letter-spacing: 0%;
+    text-align: left;
+}
+
+#empowering {
+    color: rgb(254, 163, 1);
+}
+
+#students {
+    color: rgb(17, 17, 17);
+}
+
+#towards {
+    color: rgb(1, 172, 253);
+}
+
+.banner-content-btn {
+    border-radius: 12px;
+    background: rgb(17, 17, 17);
+    color: white;
+    width: 197px;
+    height: 50px;
+    border: none;
+    font-family: Quicksand;
+    font-size: 20px;
+    font-weight: 700;
+    line-height: 30px;
+    letter-spacing: 0%;
+}
+
+
+
+
 
 
 
@@ -135,6 +205,28 @@
     .nav-underline {
         box-sizing: border-box;
         border: 0.5px solid rgb(254, 163, 1);
+    }
+
+    .banner {
+        padding: 0px 16px;
+        flex-direction: column-reverse;
+    }
+
+    .hero-kids-img {
+        width: 336.58px;
+        height: 413px;
+    }
+
+    .banner-content {
+        gap: 18px;
+    }
+
+    .banner-content-title,.banner-content-text {
+        text-align: center;
+    }
+
+    .banner-content-btn{
+        margin: 0px auto;
     }
 
 }
